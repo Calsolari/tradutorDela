@@ -41,7 +41,9 @@ body{
 
 .title button{
     display: flex;
-
+    position: absolute;
+    right: 80px;
+    top: 60px;
     padding: 16px;
     background-color: transparent;
     border: none;
