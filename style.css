@@ -92,3 +92,8 @@ footer{
 .temaEscuro{
     background-color: black;
 }
+
+.imagem{
+    background-image: url(./img/sol.png);
+    background-repeat: no-repeat;
+}
