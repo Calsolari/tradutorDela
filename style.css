@@ -10,6 +10,10 @@ body{
     font-family: 'Inter', 'sans-serif';
 }
 
+#body.tema-escuro{
+    background-color: #000;
+}
+
 .faixa-roxa{
     background-color: blueviolet;
     width: 70px;
@@ -37,7 +41,7 @@ body{
 
 .title button{
     display: flex;
-    /* justify-content: ; */
+
     padding: 16px;
     background-color: transparent;
     border: none;
@@ -85,15 +89,4 @@ footer{
     font-size: 18px;
     font-weight: bold;
     color: blueviolet;
-}
-
-/* Modo Escuro */
-
-.temaEscuro{
-    background-color: black;
-}
-
-.imagem{
-    background-image: url(./img/sol.png);
-    background-repeat: no-repeat;
 }
