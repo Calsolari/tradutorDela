@@ -14,6 +14,11 @@ body{
     background-color: #000;
 }
 
+#body.tema-escuro input{
+    background-color:transparent;
+    color: rgb(202, 200, 200);
+}
+
 .faixa-roxa{
     background-color: blueviolet;
     width: 70px;
@@ -76,6 +81,8 @@ input{
     border-width: 0.4;
     font-size: medium;
     font-weight: normal;
+    color: black;
+    outline: none;
 }
 
 .result-traducao input::placeholder{
